@@ -84,7 +84,7 @@ the values of the latter are the transition specifications.
 transitions are specified either as the string specifying the next state,
 or as an array with two entries:
 * the first entry is the string specifying the next state.
-* the second entry is the transition function that is returned by the state function.
+* the second entry is the transition payload that shall be returned by the state function.
 
 # Example
 see the full [example](./example/index.tsx) in this directory.
